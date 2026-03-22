@@ -1,7 +1,5 @@
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Home } from "lucide-react"
-import { GoBackButton } from "@/components/go-back-button"
+import { Home, ArrowLeft } from "lucide-react"
 
 export default function NotFound() {
   return (
@@ -25,12 +23,22 @@ export default function NotFound() {
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <GoBackButton />
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10"
+          >
+            <a href="javascript:history.back()">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Go Back
+            </a>
+          </Button>
           <Button asChild size="lg" className="bg-primary text-foreground hover:bg-primary/90">
-            <Link href="/">
+            <a href="/">
               <Home className="mr-2 h-4 w-4" />
               Return to Home
-            </Link>
+            </a>
           </Button>
         </div>
       </div>

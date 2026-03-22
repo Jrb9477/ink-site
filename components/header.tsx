@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button"
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Previous Projects", href: "/work" },
-  { name: "Contact", href: "/contact" },
 ]
 
 export function Header() {

@@ -1,9 +1,9 @@
 import Link from "next/link"
-import Image from "next/image"
+import { externalLinks } from "@/lib/external-links"
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Previous Work", href: "/work" },
+  { name: "Previous Projects", href: "/work" },
   { name: "Contact", href: "/contact" },
 ]
 
@@ -11,17 +11,15 @@ export function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
           <div className="flex flex-col gap-4">
-            <Image
-              src="/images/logo.png"
-              alt="Inconceivable Ink"
-              width={180}
-              height={45}
-              className="h-10 w-auto brightness-0 invert"
-            />
+            <div className="flex items-center gap-2">
+              <span className="text-xl font-serif font-bold text-primary-foreground">
+                Inconceivable Ink
+              </span>
+            </div>
             <p className="text-sm text-secondary-foreground/70 max-w-xs">
-              Delivering the Unbelievable. Creative consulting with 20+ years of entertainment industry expertise.
+              Delivering the Unbelievable. Creative consulting for theme parks and entertainment experiences.
             </p>
           </div>
 
@@ -39,6 +37,23 @@ export function Footer() {
               ))}
             </nav>
           </div>
+
+          {externalLinks.length > 0 && (
+            <div className="flex flex-col gap-4">
+              <h3 className="text-sm font-semibold text-primary">External Sites</h3>
+              <nav className="flex flex-col gap-2">
+                {externalLinks.map((link) => (
+                  <Link
+                    key={link.slug}
+                    href={`/go/${link.slug}`}
+                    className="text-sm text-secondary-foreground/70 transition-colors hover:text-primary"
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+          )}
 
           <div className="flex flex-col gap-4">
             <h3 className="text-sm font-semibold text-primary">Contact</h3>
