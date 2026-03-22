@@ -29,12 +29,11 @@ export const externalLinks: ExternalLink[] = [
   // ADD YOUR EXTERNAL LINKS BELOW
   // ===========================================
   
-  // Example LinkedIn link (uncomment and update with your URL):
-  // {
-  //   slug: "linkedin",
-  //   name: "LinkedIn",
-  //   url: "https://linkedin.com/in/your-profile",
-  // },
+  {
+    slug: "linkedin",
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/kraigblythe/",
+  },
   
   // Example Twitter/X link:
   // {

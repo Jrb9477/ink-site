@@ -13,10 +13,13 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-2">
-              <span className="text-xl font-serif font-bold text-primary-foreground">
-                Inconceivable Ink
-              </span>
+            <div className="flex items-start">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/logo.png"
+                alt="Inconceivable Ink"
+                className="h-10 w-auto object-contain"
+              />
             </div>
             <p className="text-sm text-secondary-foreground/70 max-w-xs">
               Delivering the Unbelievable. Creative consulting for theme parks and entertainment experiences.
