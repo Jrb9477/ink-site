@@ -47,7 +47,7 @@ export default function ContactPage() {
                     
                     <div className="space-y-4">
                       <a 
-                        href="mailto:contact@Inconceivable.ink"
+                        href="mailto:Kraig@Inconceivable.Ink"
                         className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group"
                       >
                         <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
@@ -55,7 +55,7 @@ export default function ContactPage() {
                         </div>
                         <div>
                           <p className="text-sm text-muted-foreground">Email</p>
-                          <p className="font-medium">contact@Inconceivable.ink</p>
+                          <p className="font-medium">Kraig@Inconceivable.Ink</p>
                         </div>
                       </a>
                       
@@ -79,7 +79,7 @@ export default function ContactPage() {
                       within 24-48 hours.
                     </p>
                     <Button asChild className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
-                      <a href="mailto:contact@Inconceivable.ink">
+                      <a href="mailto:Kraig@Inconceivable.Ink">
                         Send Email
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </a>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Delivering the Unbelievable</h3>
                       <p className="text-muted-foreground">
-                        With 20+ years of experience at Disney, we bring proven expertise 
+                        With over 30 years experience in the industry, we bring proven expertise 
                         to help you create extraordinary results.
                       </p>
                     </div>
@@ -180,7 +180,7 @@ export default function ContactPage() {
               No project is too complex. Reach out today.
             </p>
             <Button asChild size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
-              <a href="mailto:contact@Inconceivable.ink">
+                <a href="mailto:Kraig@Inconceivable.Ink">
                 Email Kraig Blythe
                 <Mail className="ml-2 h-4 w-4" />
               </a>
