@@ -63,10 +63,10 @@ export function Footer() {
             <div className="text-sm text-secondary-foreground/70">
               <p>Kraig Blythe</p>
               <a 
-                href="mailto:contact@Inconceivable.ink"
+                href="mailto:Kraig@Inconceivable.Ink"
                 className="transition-colors hover:text-primary"
               >
-                contact@Inconceivable.ink
+                Kraig@Inconceivable.Ink
               </a>
               <p className="mt-2">Los Angeles, California</p>
             </div>
