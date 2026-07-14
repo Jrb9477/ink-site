@@ -49,23 +49,20 @@ export interface Project {
 // ============================================================
 
 export const projects: Project[] = [
-  // Projects will appear here once added.
-  // See the template at the top of this file for instructions.
-]
-{
-    id: unique-project-id,          // Unique slug, no spaces (required)
-    title: Project Title,            // Display name of the project (required)
-    client: Client or Company Name,  // Who it was for (required)
-    category: Theme Park,            // See ProjectCategory type below (required)
-    year: 2024,                      // Year completed, or "2022–2024" for a range (required)
-    description: A short paragraph describing what the project was and what was accomplished., // (required)
-    highlights: [                      // Key bullet points — remove this block if not needed
-      Key accomplishment or detail,
-      Another highlight,
+  {
+    id: "unique-project-id",          // Wrapped in quotes
+    title: "Project Title",            // Wrapped in quotes
+    client: "Client or Company Name",  // Wrapped in quotes
+    category: "Theme Park",            // Wrapped in quotes
+    year: "2024",                      // Wrapped in quotes
+    description: "A short paragraph describing what the project was and what was accomplished.", // Wrapped in quotes
+    highlights: [
+      "Key accomplishment or detail,", // Wrapped in quotes
+      "Another highlight,"             // Wrapped in quotes
     ],
-    featured: true,                    // Set to true to mark as a featured project (optional)
+    featured: true,                    // Boolean (no quotes)
   },
-
+]; // The closing bracket must go at the very end
 
 // ============================================================
 // HELPER FUNCTIONS — no need to edit below this line
