@@ -53,15 +53,15 @@ export const projects: Project[] = [
   // See the template at the top of this file for instructions.
 ]
 {
-    id: "unique-project-id",          // Unique slug, no spaces (required)
-    title: "Project Title",            // Display name of the project (required)
-    client: "Client or Company Name",  // Who it was for (required)
-    category: "Theme Park",            // See ProjectCategory type below (required)
-    year: "2024",                      // Year completed, or "2022–2024" for a range (required)
-    description: "A short paragraph describing what the project was and what was accomplished.", // (required)
+    id: unique-project-id,          // Unique slug, no spaces (required)
+    title: Project Title,            // Display name of the project (required)
+    client: Client or Company Name,  // Who it was for (required)
+    category: Theme Park,            // See ProjectCategory type below (required)
+    year: 2024,                      // Year completed, or "2022–2024" for a range (required)
+    description: A short paragraph describing what the project was and what was accomplished., // (required)
     highlights: [                      // Key bullet points — remove this block if not needed
-      "Key accomplishment or detail",
-      "Another highlight",
+      Key accomplishment or detail,
+      Another highlight,
     ],
     featured: true,                    // Set to true to mark as a featured project (optional)
   },
