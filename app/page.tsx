@@ -48,7 +48,7 @@ export default function HomePage() {
               />
             </div>
             <p className="text-primary text-lg md:text-xl tracking-widest uppercase mb-6">
-              Delivering the Unbelievable
+              if this changed i think its right
             </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-balance">
               Creative Consulting for
