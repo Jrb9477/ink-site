@@ -36,11 +36,11 @@ export const externalLinks: ExternalLink[] = [
   },
   
   // Example Twitter/X link:
-  // {
-  //   slug: "twitter",
-  //   name: "Twitter / X",
-  //   url: "https://x.com/your-handle",
-  // },
+   {
+     slug: "testsite",
+     name: "test site",
+     url: "https://google.com",
+   },
   
   // Example IMDb link:
   // {
