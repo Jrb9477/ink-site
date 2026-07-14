@@ -52,6 +52,16 @@ export const projects: Project[] = [
   // Projects will appear here once added.
   // See the template at the top of this file for instructions.
 ]
+{
+  id: projectid
+  title: Title
+  client: Client
+  category: Production
+  year: Year
+  description: Description
+  highlights?: string[]
+  featured?: true
+}
 
 // ============================================================
 // HELPER FUNCTIONS — no need to edit below this line
