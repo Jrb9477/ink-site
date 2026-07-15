@@ -22,7 +22,7 @@ export function Footer() {
               />
             </div>
             <p className="text-sm text-secondary-foreground/70 max-w-xs">
-              Delivering the Unbelievable. Creative consulting for theme parks and entertainment experiences.
+              
             </p>
           </div>
 
