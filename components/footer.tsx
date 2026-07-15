@@ -16,7 +16,7 @@ export function Footer() {
             <div className="flex items-start">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/logo.png"
+                src="/images/logo-white.png"
                 alt="Inconceivable Ink"
                 className="h-10 w-auto object-contain"
               />
