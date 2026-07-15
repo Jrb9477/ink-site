@@ -48,21 +48,21 @@ export interface Project {
 // ADD YOUR PROJECTS HERE
 // ============================================================
 
-export const projects: Project[] = [
-  {
-    id: "unique-project-id",          // Wrapped in quotes
-    title: "Project Title",            // Wrapped in quotes
-    client: "Client or Company Name",  // Wrapped in quotes
-    category: "Theme Park",            // Wrapped in quotes
-    year: "2024",                      // Wrapped in quotes
-    description: "A short paragraph describing what the project was and what was accomplished.", // Wrapped in quotes
-    highlights: [
-      "Key accomplishment or detail,", // Wrapped in quotes
-      "Another highlight,"             // Wrapped in quotes
-    ],
-    featured: true,                    // Boolean (no quotes)
-  },
-]; // The closing bracket must go at the very end
+//export const projects: Project[] = [
+  //{
+    //id: "unique-project-id",          // Wrapped in quotes
+    //title: "Project Title",            // Wrapped in quotes
+    //client: "Client or Company Name",  // Wrapped in quotes
+    //category: "Theme Park",            // Wrapped in quotes
+    //year: "2024",                      // Wrapped in quotes
+    //description: "A short paragraph describing what the project was and what was accomplished.", // Wrapped in quotes
+    //highlights: [
+      //"Key accomplishment or detail,", // Wrapped in quotes
+      //"Another highlight,"             // Wrapped in quotes
+    //],
+    //featured: true,                    // Boolean (no quotes)
+  //},
+//]; // The closing bracket must go at the very end
 
 // ============================================================
 // HELPER FUNCTIONS — no need to edit below this line
