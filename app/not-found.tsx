@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button"
-import { Home, ArrowLeft } from "lucide-react"
+import { Home } from "lucide-react"
 import { GoBackButton } from "@/components/go-back-button"
 
 export default function NotFound() {
@@ -18,16 +17,16 @@ export default function NotFound() {
 
         {/* Explanation */}
         <p className="text-lg text-secondary-foreground/70 leading-relaxed mb-10 max-w-md mx-auto">
-          A <strong className="text-secondary-foreground">404 error</strong> means the page
+          A <strong className="text-secondary-foreground">404 error</strong>  means the page
           you&apos;re looking for doesn&apos;t exist or has been moved to a different location.
         </p>
 
         {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row items-center text-black justify-center gap-4">
           <GoBackButton />
           <a
             href="/"
-            className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-black transition-colors hover:bg-primary/90"
+            className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-primary/90"
           >
             <Home className="h-4 w-4" />
             Return to Home

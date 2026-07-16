@@ -37,7 +37,7 @@ export default function WorkPage() {
               <ProjectGrid projects={projects} />
             ) : (
               <div className="text-center py-16">
-                <p className="text-muted-foreground text-lg">Projects coming soon.</p>
+                <p className="text-muted-foreground text-lg">No public projects available at this time.</p>
               </div>
             )}
           </div>
