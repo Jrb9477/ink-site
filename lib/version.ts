@@ -38,12 +38,17 @@ export interface ChangelogEntry {
 // ============================================================
 export const changelog: ChangelogEntry[] = [
   {
-    version: "1.0.0",
-    date: "2026-07-16",
+    version: "1.0.1",
+    date: "2026-07-15",
     changes: [
-      "Initial launch of the Inconceivable Ink website.",
-      "Added Home, Previous Projects, and Contact pages.",
-      "Added custom 404 page and external site redirects.",
+      "Updating all domains to full code.",
+    ],
+  },
+  {
+    version: "1.0.0",
+    date: "2026-07-14",
+    changes: [
+      "Creation of Changelog.",
     ],
   },
 ]
