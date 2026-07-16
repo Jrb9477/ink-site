@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button"
-import { Home, ArrowLeft } from "lucide-react"
+import { Home } from "lucide-react"
 import { GoBackButton } from "@/components/go-back-button"
 
 export default function NotFound() {
@@ -23,7 +22,7 @@ export default function NotFound() {
         </p>
 
         {/* Action Buttons */}
-        <div className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-primary/90"
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <GoBackButton />
           <a
             href="/"
