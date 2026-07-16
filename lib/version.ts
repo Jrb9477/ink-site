@@ -25,7 +25,7 @@
  */
 
 // The current version shown at the top of the page.
-export const currentVersion = "1.0.0"
+export const currentVersion = "1.0.1"
 
 export interface ChangelogEntry {
   version: string
