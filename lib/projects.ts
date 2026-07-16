@@ -47,22 +47,25 @@ export interface Project {
 // ============================================================
 // ADD YOUR PROJECTS HERE
 // ============================================================
+//
+// Add project objects inside the array below. Example:
+//
+// export const projects: Project[] = [
+//   {
+//     id: "unique-project-id",
+//     title: "Project Title",
+//     client: "Client or Company Name",
+//     category: "Theme Park",
+//     year: "2024",
+//     description: "A short paragraph describing the project.",
+//     highlights: ["Key accomplishment", "Another highlight"],
+//     featured: true,
+//   },
+// ]
+//
+// Leave it as an empty array ([]) when there are no projects yet.
 
-//export const projects: Project[] = [
-  //{
-    //id: "unique-project-id",          // Wrapped in quotes
-    //title: "Project Title",            // Wrapped in quotes
-    //client: "Client or Company Name",  // Wrapped in quotes
-    //category: "Theme Park",            // Wrapped in quotes
-    //year: "2024",                      // Wrapped in quotes
-    //description: "A short paragraph describing what the project was and what was accomplished.", // Wrapped in quotes
-    //highlights: [
-      //"Key accomplishment or detail,", // Wrapped in quotes
-      //"Another highlight,"             // Wrapped in quotes
-    //],
-    //featured: true,                    // Boolean (no quotes)
-  //},
-//]; // The closing bracket must go at the very end
+export const projects: Project[] = []
 
 // ============================================================
 // HELPER FUNCTIONS — no need to edit below this line
