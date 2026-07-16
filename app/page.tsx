@@ -47,16 +47,13 @@ export default function HomePage() {
                 priority
               />
             </div>
-            <p className="text-primary text-lg md:text-xl tracking-widest uppercase mb-6">
-              Delivering the Unbelievable
-            </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-balance">
               Creative Consulting for
               <span className="text-primary block mt-2">Extraordinary Experiences</span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg md:text-xl text-secondary-foreground/80 mb-12 leading-relaxed">
               Inconceivable Ink brings decades of hands-on expertise in theme parks,
-              live entertainment, and show design to help you deliver the impossible.
+              live entertainment, and show design to help you deliver the unthinkable.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
@@ -65,13 +62,13 @@ export default function HomePage() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10"
-              >
-                <Link href="/contact">Get in Touch</Link>
+           <Button 
+              asChild 
+              size="lg" 
+              variant="outline" 
+              className="border-secondary-foreground/30 text-black hover:bg-secondary-foreground/10"
+              > 
+              <Link href="/contact">Get in Touch</Link> 
               </Button>
             </div>
           </div>

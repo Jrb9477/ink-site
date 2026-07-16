@@ -30,17 +30,17 @@ export const externalLinks: ExternalLink[] = [
   // ===========================================
   
   {
-    slug: "linkedin",
-    name: "LinkedIn",
+    slug: "kraig-linkedin",
+    name: "Kraig's LinkedIn",
     url: "https://www.linkedin.com/in/kraigblythe/",
   },
   
   // Example Twitter/X link:
-  // {
-  //   slug: "twitter",
-  //   name: "Twitter / X",
-  //   url: "https://x.com/your-handle",
-  // },
+   {
+     slug: "company-linkedin",
+     name: "Company's LinkedIn",
+     url: "https://google.com",
+   },
   
   // Example IMDb link:
   // {
