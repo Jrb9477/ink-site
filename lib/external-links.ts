@@ -34,9 +34,7 @@ export const externalLinks: ExternalLink[] = [
     name: "Kraig's LinkedIn",
     url: "https://www.linkedin.com/in/kraigblythe/",
   },
-  
-  // Example Twitter/X link:
-   {
+     {
      slug: "company-linkedin",
      name: "Company's LinkedIn",
      url: "https://google.com",
