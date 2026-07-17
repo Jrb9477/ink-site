@@ -52,9 +52,7 @@ export default function HomePage() {
               <span className="text-primary block mt-2">Extraordinary Experiences</span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg md:text-xl text-secondary-foreground/80 mb-12 leading-relaxed">
-              Inconceivable Ink brings decades of hands-on expertise in theme parks,
-              live entertainment, and show design to help you deliver the unthinkable.
-            </p>
+            Inconceivable Ink brings decades of hands-on expertise to help you deliver the unthinkable, from inception to completion, or somewhere in between.            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
                 <Link href="/work">
@@ -128,11 +126,16 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold text-foreground mb-6">Areas of Expertise</h3>
                 <div className="space-y-4">
                   {[
-                    "Theme Park Experience Design",
-                    "Live Entertainment Production",
-                    "Show Systems & Theatrical Design",
-                    "Creative Program Management",
-                    "Executive Production Leadership",
+                    "Executive Leadership",
+                    "Strategic Planning & Business Development",
+                    "Large-Scale Program & Project Management",
+                    "Theme Park & Entertainment Development",
+                    "Global Team & Stakeholder Leadership",
+                    "Contract Negotiation & Strategic Procurement",
+                    "Technical Design & Systems Integration",
+                    "Organizational Development & Process Improvement",
+                    "Budget, Capital Planning & Financial Management",
+                    "Government Relations & Regulatory Compliance",
                   ].map((item) => (
                     <div key={item} className="flex items-start gap-4">
                       <div className="h-2 w-2 rounded-full bg-primary mt-2 shrink-0" />
