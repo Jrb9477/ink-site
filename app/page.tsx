@@ -52,8 +52,7 @@ export default function HomePage() {
               <span className="text-primary block mt-2">Extraordinary Experiences</span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg md:text-xl text-secondary-foreground/80 mb-12 leading-relaxed">
-              Inconceivable Ink brings decades of hands-on expertise to help you deliver the unthinkable, from inception to completion or somewhere inbetween.
-            </p>
+            Inconceivable Ink brings decades of hands-on expertise to help you deliver the unthinkable, from inception to completion, or somewhere in between.            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
                 <Link href="/work">
